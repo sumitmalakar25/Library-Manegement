@@ -24,7 +24,8 @@ class book
                     cin.getline(author_name,50);
                     cout<<"\t\t\n\nBook Created Successfully...";
           }
- 
+
+          
           void show_book()
           {
                     cout<<"\nBook Number: "<<book_number;
@@ -391,7 +392,7 @@ void book_return()
     char sn[20],bn[20];
     int found=0, flag=0, day, fine;
    cout<<"\t\tRETURN BOOKS\n";
-    cout<<"\n\n\tEnter The student’s ID Number: ";
+    cout<<"\n\n\tEnter The studentï¿½s ID Number: ";
     cin>>sn;
     fp.open("student.dat",ios::in|ios::out);
     fp1.open("book.dat",ios::in|ios::out);
